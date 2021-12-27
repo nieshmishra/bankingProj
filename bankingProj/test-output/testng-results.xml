@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-27T15:25:45 IST" name="Default suite" finished-at="2021-12-27T15:26:03 IST" duration-ms="17285">
+    <groups>
+    </groups>
+    <test started-at="2021-12-27T15:25:45 IST" name="Default test" finished-at="2021-12-27T15:26:03 IST" duration-ms="17285">
+      <class name="com.bankingProj.testCases.TestCase_Login_001">
+        <test-method is-config="true" signature="SetExtent()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:45 IST" name="SetExtent" finished-at="2021-12-27T15:25:46 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetExtent -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:46 IST" name="Setup" finished-at="2021-12-27T15:25:49 IST" duration-ms="3563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:49 IST" name="LoginTest" finished-at="2021-12-27T15:25:56 IST" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="TearDownResult(org.testng.ITestResult)[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:56 IST" name="TearDownResult" finished-at="2021-12-27T15:25:56 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=TestCase_Login_001.LoginTest()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownResult -->
+        <test-method signature="testTitle()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:56 IST" name="testTitle" finished-at="2021-12-27T15:25:56 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.bankingProj.testCases.TestCase_Login_001.testTitle(TestCase_Login_001.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="TearDownResult(org.testng.ITestResult)[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:56 IST" name="TearDownResult" finished-at="2021-12-27T15:25:56 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=FAILURE method=TestCase_Login_001.testTitle()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownResult -->
+        <test-method signature="testaddCustomer()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:25:56 IST" name="testaddCustomer" finished-at="2021-12-27T15:26:01 IST" duration-ms="5369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddCustomer -->
+        <test-method is-config="true" signature="TearDownResult(org.testng.ITestResult)[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:26:01 IST" name="TearDownResult" finished-at="2021-12-27T15:26:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testaddCustomer status=SUCCESS method=TestCase_Login_001.testaddCustomer()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:26:01 IST" name="teardown" finished-at="2021-12-27T15:26:02 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="FlushReport()[pri:0, instance:com.bankingProj.testCases.TestCase_Login_001@3e11f9e9]" started-at="2021-12-27T15:26:02 IST" name="FlushReport" finished-at="2021-12-27T15:26:03 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlushReport -->
+      </class> <!-- com.bankingProj.testCases.TestCase_Login_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
